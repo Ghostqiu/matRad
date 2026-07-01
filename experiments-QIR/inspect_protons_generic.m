@@ -4,7 +4,7 @@
 % and plots Bragg curves (Z=idd) + lateral sigma vs depth.
 
 set(0, 'DefaultFigureVisible', 'on');   % in case matRad disabled figures earlier in the session
-MAT = 'C:\Users\qiuyu\Documents\MATLAB\matRad-masterNew\matRad\basedata\protons_Generic.mat';
+MAT = 'C:\Users\qiuyu\Documents\matrad-project\matRad\matRad\basedata\protons_generic_TOPAS.mat';
 S = load(MAT); machine = S.machine; data = machine.data;
 nE = numel(data);
 
